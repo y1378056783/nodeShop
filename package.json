@@ -1,17 +1,32 @@
 {
-  "name": "node Shop",
+  "name": "nodeshop",
   "version": "1.0.0",
-  "description": "node Shop",
+  "description": "a great shopAdmin",
   "main": "app.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y1378056783/nodeShop.git"
+  },
+  "keywords": [
+    "express",
+    "mongoose"
+  ],
   "author": "yyp",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/y1378056783/nodeShop/issues"
+  },
+  "homepage": "https://github.com/y1378056783/nodeShop#readme",
   "devDependencies": {
-	"express": "~3.4.8",
-	"express-session": "~1.9.3",
-	"body-parser": "~1.10.0",
-	"multer": "~0.1.6",
-	"path": "~0.4.9",
-	"mongoose": "~3.8.1",
-	"ejs": "~2.4.1"
+    "body-parser": "^1.18.2",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.1.0",
+    "multer": "^1.3.0",
+    "path": "^0.12.7"
   }
 }
